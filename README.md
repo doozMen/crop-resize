@@ -44,12 +44,12 @@ See 'crop-resize help <subcommand>' for detailed help.
 
 ## Installation on System
 
-Download the latest release and save in a folder in your executable path,
-for example on `/usr/local/bin`:
+Currently only supports building from source. You will need to understand git.
 
 ```
-$ curl -O https://github.com/doozmen/crop/releases/download/0.0.1/crop-scale.zip
-$ unzip crop.zip
-$ install -d /usr/local/bin
-$ install -C -m 755 crop /usr/local/bin/crop-scale
+cd <#developer directry#>
+git clone https://github.com/doozMen/crop-scale
+cd crop-scale
+# brew install make
+make
 ```
